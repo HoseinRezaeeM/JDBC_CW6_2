@@ -38,7 +38,7 @@ public class EmployessAddress {
         this.postCode = postCode;
     }
 
-    public EmployessAddress(Integer addressId, String city, String street, int postCode) {
+    public EmployessAddress(String city, String street) {
         this.addressId = addressId;
         this.city = city;
         this.street = street;
