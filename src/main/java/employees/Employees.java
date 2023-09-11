@@ -14,6 +14,9 @@ public class Employees {
         this.officeCode = officeCode;
         this.addressId = addressId;
     }
+    public Employees(){
+
+    }
 
     public Integer getEmployeeNumber() {
         return employeeNumber;
