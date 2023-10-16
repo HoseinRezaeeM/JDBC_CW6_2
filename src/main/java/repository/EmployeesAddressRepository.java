@@ -35,7 +35,8 @@ public class EmployeesAddressRepository {
         if (result.next()) {
             String city = result.getString("city");
             String street = result.getString("street");
-            System.out.println("Address: " + city + ", " + street);
+            int postalcode =result.getInt("postalcode");
+            System.out.println("Address: " + city + ", " + street+" ,"+postalcode);
         }
     }
 
